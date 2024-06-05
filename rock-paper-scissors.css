@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(25, 25,25);
+    color: white;
+    font-family: arial;
+}
+.game{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+}
+.heading{
+   font-size: 30px;
+   font-weight: bold;
+}
+.move-icon{
+    height: 50px;
+}
+.move-button{
+    border-style: solid;
+    border-color: white;
+    background-color: transparent;
+    width: 120px;
+    height: 120px;
+    border-width: 3px;
+    border-radius: 60px;
+    margin-right: 10px;
+}
+.move-button:hover{
+    cursor: pointer;
+}
+.result{
+    font-weight: bold;
+    font-size: 25px;
+}
+.score{
+    margin-top: 60px;
+}
+.reset-score-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: none;
+    height: 35px;
+    width: 110px;
+    font-size: 15px;
+    cursor: pointer;
+}
